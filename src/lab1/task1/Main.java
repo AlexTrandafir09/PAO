@@ -8,7 +8,6 @@ public class Main {
     public static void main(String[] args){
         Student[] students= StudentAllocator.createStudents();
         Course course= new Course("Mate",5,students);
-
         Student student_=course.chooseStudentRandomly();
         System.out.println(student_);
 
